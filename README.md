@@ -1,43 +1,73 @@
-# Arduino LED Projects
+# Arduino Projects Repository
 
-Welcome to the Arduino LED Projects repository! This folder contains multiple Arduino projects designed to help beginners get started with Arduino, learn the basics of controlling LEDs, and explore various concepts.
+Welcome to my Arduino projects repository! This collection of projects is designed to help you get started with Arduino, explore basic concepts, and have hands-on experience with LEDs, actuators, and sensors.
 
 ## Table of Contents
-- [Introduction](#introduction)
-- [Projects Overview](#projects-overview)
-- [Getting Started](#getting-started)
-- [Components Needed](#components-needed)
-- [How to Use](#how-to-use)
-- [Contributing](#contributing)
 
-## Introduction
-This repository is a collection of simple Arduino LED projects, each focusing on a specific concept or skill. Whether you're a beginner or looking to expand your Arduino skills, these projects provide a hands-on learning experience.
-
-## Projects Overview
-1. **Blinking LED:** A classic project that introduces the basic structure of an Arduino sketch and demonstrates how to make an LED blink.
-
-.............
+1. [Getting Started](#getting-started)
+2. [Projects Overview](#projects-overview)
+    - [LED Projects](#led-projects)
+    - [Actuator Projects](#actuator-projects)
+    - [Sensor Projects](#sensor-projects)
+3. [Requirements](#requirements)
+4. [How to Use](#how-to-use)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ## Getting Started
-To get started with these projects, follow these steps:
-1. Clone the repository to your local machine.
-2. Set up your Arduino development environment.
-3. Navigate to the specific project folder you're interested in.
-4. Follow the instructions in the project's README or Arduino sketch.
 
-## Components Needed
-Common components needed for these projects include:
+If you're new to Arduino or this repository, start with the following steps to set up your environment and hardware.
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/ankitt002/arduino-projects.git
+    ```
+
+2. Explore the individual project folders to find projects that interest you.
+
+3. Follow the project-specific instructions provided in each folder.
+
+## Projects Overview
+
+### LED Projects
+
+Explore various LED-related projects to learn about basic digital output and controlling LEDs with Arduino.
+
+- **Blinking LED:** Simple project to make an LED blink at different intervals.
+- **Traffic light Control:** Control an traffic light.
+
+### Actuator Projects
+
+Discover projects involving actuators to understand how to control physical motion using Arduino.
+
+- **Servo Motor Control:** Control a servo motor's position using Arduino.
+- **DC Motor Speed Control:** Learn to control the speed of a DC motor.
+- **Stepper Motor Control:** Control a stepper motor rotation/steps.
+
+### Sensor Projects
+
+Dive into sensor-based projects to understand how to read data from the environment.
+
+- **Temperature and Humidity Sensor:** Use a DHT sensor to measure temperature and humidity.
+- **Ultrasonic Distance Measurement:** Measure distance using an ultrasonic sensor.
+- **...and many more sensors:** Integrate different sensor with arduino and see output.
+
+## Requirements
+
+- Arduino IDE (download from [Arduino official website](https://www.arduino.cc/en/software))
 - Arduino board (e.g., Arduino Uno)
-- LEDs (and RGB LEDs for specific projects)
-- Resistors
-- Buttons
-- Jumper wires
+- Breadboard and jumper wires
+- LEDs, actuators, and sensors as per project requirements
 
 ## How to Use
-Each project has its own set of instructions. Refer to the specific project's README for details on how to use and experiment with the code.
+
+Each project folder/file contains a README file with specific instructions on how to set up and run the project. Follow the steps provided in each README to gain knowledge and experience with Arduino.
 
 ## Contributing
-Contributions are welcome! If you have ideas for new projects or improvements, feel free to open an issue or submit a pull request.
 
+Contributions are welcome! If you have an Arduino project to share or want to improve existing ones, feel free to submit pull requests.
 
-Happy experimenting with Arduino LEDs!
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
