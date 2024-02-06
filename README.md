@@ -35,7 +35,7 @@ If you're new to Arduino or this repository, start with the following steps to s
 Explore various LED-related projects to learn about basic digital output and controlling LEDs with Arduino.
 
 - **Blinking LED:** Simple project to make an LED blink at different intervals.
-- **Traffic light Control:** Control an traffic light.
+- **Traffic light Control:** Control an traffic light and more....
 
 ### Actuator Projects
 
