@@ -1,4 +1,4 @@
-# Simple Traffic Light Signal Control
+# 1. Simple Traffic Light Signal Control
 
 This Arduino project simulates a basic traffic light control system with red, orange, and green LEDs.
 
@@ -32,7 +32,7 @@ The project uses an Arduino board to control three LEDs representing traffic sig
 - In the `loop()` function, each LED is turned on and off sequentially with specific delay intervals to mimic the behavior of a traffic light.
 
 
-# Traffic Light Control using Three leds with Timed Transitions
+# 2. Traffic Light Control using Three leds with Timed Transitions
 
 This Arduino project simulates a traffic light control system with timed transitions between red, red/orange, and green signals.
 
